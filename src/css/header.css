@@ -3,7 +3,7 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-logo {
   display: inline-flex;
@@ -16,10 +16,16 @@
   justify-content: flex-end;
   gap: 40px;
 }
+.nav-item {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px;
+}
 .nav-link {
   position: relative;
   display: block;
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
 }
